@@ -68,8 +68,8 @@ const Exercise2 = () => {
 
   interface City {
     coords: Coords;
-    name: string
   }
+  // City is kind of merged automatically?
 
   const montreal  = {
     coords: {
