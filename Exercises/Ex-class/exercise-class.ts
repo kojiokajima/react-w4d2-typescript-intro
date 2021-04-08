@@ -45,12 +45,7 @@ const Exercise5 = () => {
   // • Reduce class to three lines of code while maintaining functionality
 
   class Employee {
-    title: string
-    salary: number
-    constructor(title: string, salary: number) {
-      this.title = title
-      this.salary = salary
-    }
+    constructor(public title: string, public salary: number) {}
   }
 
   const employee = new Employee('Engineer', 100000)
